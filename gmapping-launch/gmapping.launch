@@ -6,12 +6,6 @@ slam_gmapping
 
 <launch>
 
-  #### set up data playback from bag #############################
-  <!--param name="/use_sim_time" value="true"/-->
-
-  <!--- <node pkg="rosbag" type="play" name="play"--> 
-   args="$(find laser_scan_matcher)/demo/demo.bag --delay=5 --clock"/> -->
-
   #### start the urg_node ########################################
   <include file="$(find urg_node)/launch/urg_node.launch" /> 
 
