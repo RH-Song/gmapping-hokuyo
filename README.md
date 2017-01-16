@@ -149,9 +149,6 @@ $ roslaunch laser_scan_matcher demo.launch
 		$ rosrun map_server map_saver -f <map_name>
 		```
 
-  8. 最后得到的图片大致(局部)如图：
-![gmapping-map1](/home/slam/Pictures/bbjietu.png)
-
 ## 使用hokuyo建图
 -------------------------------------------------------------
 
